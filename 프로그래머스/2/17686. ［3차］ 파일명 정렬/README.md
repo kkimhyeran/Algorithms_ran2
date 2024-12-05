@@ -1,10 +1,10 @@
 # [level 2] [3차] 파일명 정렬 - 17686 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17686?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/17686?language=python3) 
 
 ### 성능 요약
 
-메모리: 94.4 MB, 시간: 27.18 ms
+메모리: 10.6 MB, 시간: 4.26 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 04일 20:21:14
+2024년 12월 05일 15:42:45
 
 ### 문제 설명
 
