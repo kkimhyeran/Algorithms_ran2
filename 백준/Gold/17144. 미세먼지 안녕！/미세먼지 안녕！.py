@@ -8,11 +8,11 @@ matrix = [list(map(int, input().split())) for _ in range(r)]
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
-air_cleaner = []
-for x in range(r):
-    for y in range(c):
-        if matrix[x][y] == -1:
-            air_cleaner.append(x)  # 공기청정기 위치 찾기
+
+# 공기청정기 위치 저장
+air_cleaner = [x for x in range(r) for y in range(c) if matrix[x][y] == -1]
+
+
 def spread():
     # 2. 미세먼지 확산
     # 기존에 미세먼지가 있는 칸인지 여부
